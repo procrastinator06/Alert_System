@@ -30,11 +30,21 @@ https://github.com/procrastinator06/Alert_System.git
 
   npm install express mongoose ejs body-parser
 
-3. Start the server :
+3. Install MongoDB Compass:
+
+- Download and install MongoDB Compass from the official MongoDB website: [MongoDB Compass Download](https://www.mongodb.com/try/download/compass)   
+
+4. Access MongoDB Compass:
+
+- Open MongoDB Compass.
+- Click on "New Connection" and enter the connection details (Hostname: localhost, Port: 27017, Database: TestDB, Authentication: None).
+- Click the "Connect" button to establish a connection.
+
+4. Start the server :
 
    node app.js
    
-4. Access the application:
+5. Access the application:
 
 - Page 1: http://localhost:3000/page1
 - Page 2: http://localhost:3000/page2
@@ -50,7 +60,7 @@ https://github.com/procrastinator06/Alert_System.git
 
 - MongoDB is used to store the alerts data.
 - Connection details: mongodb://localhost:27017/TestDB
-- Collection name: Alerts
+- Collection name: alerts
 
 ## Credits
 
